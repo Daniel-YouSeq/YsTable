@@ -1,0 +1,52 @@
+{
+  "name": "ystable",
+  "version": "1.2.7",
+  "description": "ReactJS Component for YS table.",
+  "main": "ystable.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "lint": "eslint ystable.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "ReactJS",
+    "Component",
+    "File",
+    "Table",
+    "CSS",
+    "DOM"
+  ],
+  "repository": "https://github.com/Daniel-YouSeq/YsTable.git",
+  "author": "Daniel",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.13.1",
+    "react-interactive-table": "^1.0.0",
+    "react-table-6": "^6.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.9.0",
+    "@babel/eslint-parser": "^7.14.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-webpack-plugin": "^2.5.4",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "bugs": {
+    "url": "https://github.com/Daniel-YouSeq/YsTable/issues"
+  },
+  "homepage": "https://github.com/Daniel-YouSeq/YsTable#readme"
+}
