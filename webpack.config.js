@@ -4,7 +4,7 @@ const ESLintPlugin = require('eslint-webpack-plugin');
 module.exports = (env) => {
   return {
     context: path.resolve(__dirname, 'src'),
-    entry: './ystable.js',
+    entry: './ystable.jsx',
     module: {
       rules: [{
         test: /.(js|jsx)$/,

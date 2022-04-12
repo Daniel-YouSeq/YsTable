@@ -2,12 +2,12 @@
   "name": "ystable",
   "version": "1.2.7",
   "description": "ReactJS Component for YS table.",
-  "main": "ystable.js",
+  "main": "src/ystable.jsx",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "lint": "eslint ystable.js",
+    "lint": "eslint ./src --ext .jsx,.js --ignore-pattern '*.test.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production"
   },
@@ -25,7 +25,10 @@
   "dependencies": {
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "prop-types": "^15.5.0",
     "react": "^16.13.1",
+    "react-csv-to-table": "^0.0.4",
+    "react-dom": "^16.13.1",
     "react-interactive-table": "^1.0.0",
     "react-table-6": "^6.11.0"
   },
