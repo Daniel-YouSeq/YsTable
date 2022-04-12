@@ -2,7 +2,7 @@
   "name": "ystable",
   "version": "1.2.7",
   "description": "ReactJS Component for YS table.",
-  "main": "ystable.js",
+  "main": "src/ystable.jsx",
   "directories": {
     "example": "example"
   },
